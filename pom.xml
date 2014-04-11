@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>nl.jkva</groupId>
+    <artifactId>cascading-release-test-simple-parent</artifactId>
+    <version>DO_NOT_RELEASE_THIS_MODULE</version>
+    <packaging>pom</packaging>
+
+    <name>Test Simple Parent</name>
+
+    <modules>
+        <module>backend</module>
+        <module>frontend</module>
+        <module>release</module>
+    </modules>
+
+</project>
