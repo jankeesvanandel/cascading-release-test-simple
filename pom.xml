@@ -17,4 +17,22 @@
         <module>release</module>
     </modules>
 
+    <distributionManagement>
+        <repository>
+            <id>localreleases</id>
+            <name>localrepos</name>
+            <url>${project.build.directory}/releasesrepo</url>
+        </repository>
+        <snapshotRepository>
+            <id>localsnapshots</id>
+            <name>localsnapshots</name>
+            <url>${project.build.directory}/snapshotsrepo</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <scm>
+        <connection>git:https://github.com/jankeesvanandel/cascading-release-test-simple.git</connection>
+        <developerConnection>${project.build.directory}/tags/${project.version}</developerConnection>
+    </scm>
+
 </project>
