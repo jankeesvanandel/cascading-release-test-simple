@@ -1,0 +1,12 @@
+[submodule "cascading-release-test-simple-frontend"]
+	path = cascading-release-test-simple-frontend
+	url = https://github.com/jankeesvanandel/cascading-release-test-simple-frontend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/jankeesvanandel/cascading-release-test-simple-frontend.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/jankeesvanandel/cascading-release-test-simple-backend.git
+[submodule "release"]
+	path = release
+	url = https://github.com/jankeesvanandel/cascading-release-test-simple-release.git
